@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Mahasiswa</title>
+</head>
+<body>
+    <header>
+        <h2>
+            Tambah Data Mahasiswa
+        </h2>
+    </header>
+    <main>
+        <section>
+            <form id="TambahData">
+                <input type="text" id="nama" placeholder="Silahkan Isi Nama Kamu">
+                <input type="number" id="nim" placeholder="Silahkan Isi NIM Kamu"> <br> <br>
+                <input type="text" id="prodi" placeholder="Silahkan Isi Program Studi Kamu">
+                <input type="text" id="fakultas" placeholder="Silahkan Isi Fakultas Kamu"> <br> <br>
+
+                <button type="submit">Simpan DataMu</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Data Mahasiswa</h2>
+            <div>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Program Studi</th>
+            <th>Fakultas</th>
+        </tr>
+        <tr>
+            <td id="namaData"></td>
+            <td id="nimData"></td>
+            <td id="prodiData"></td>
+            <td id="fakultasData"></td>
+        </tr>
+    <table>
+            </div>
+        </section>
+    </main>
+
+    <script src="../backend/main.js"></script>
+</body>
+</html>
